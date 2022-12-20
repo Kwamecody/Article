@@ -517,6 +517,10 @@ video {
   position: relative;
 }
 
+.float-left {
+  float: left;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
@@ -546,6 +550,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -560,6 +568,18 @@ video {
 
 .w-24 {
   width: 6rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -598,6 +618,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-b-\[16px\] {
+  border-bottom-width: 16px;
+}
+
 .bg-sky-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(240 249 255 / var(--tw-bg-opacity));
@@ -629,9 +653,21 @@ video {
   text-align: center;
 }
 
+.indent-6 {
+  text-indent: 1.5rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .italic {
@@ -642,8 +678,45 @@ video {
   text-decoration-line: underline;
 }
 
+.decoration-wavy {
+  text-decoration-style: wavy;
+}
+
+.decoration-1 {
+  text-decoration-thickness: 1px;
+}
+
 .underline-offset-1 {
   text-underline-offset: 1px;
+}
+
+.first-letter\:float-left::first-letter {
+  float: left;
+}
+
+.first-letter\:mt-2::first-letter {
+  margin-top: 0.5rem;
+}
+
+.first-letter\:mr-3::first-letter {
+  margin-right: 0.75rem;
+}
+
+.first-letter\:text-7xl::first-letter {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.first-letter\:font-bold::first-letter {
+  font-weight: 700;
+}
+
+.first-line\:uppercase::first-line {
+  text-transform: uppercase;
+}
+
+.first-line\:tracking-widest::first-line {
+  letter-spacing: 0.1em;
 }
 
 @media (min-width: 768px) {
