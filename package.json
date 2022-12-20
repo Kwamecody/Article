@@ -1,0 +1,25 @@
+{
+  "name": "article",
+  "version": "1.0.0",
+  "description": "Article design for a blog post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i styles.css -o tailwind.css",
+    "dev:watch": "npx tailwindcss -i styles.css -o tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kwamecody/Article.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kwamecody/Article/issues"
+  },
+  "homepage": "https://github.com/Kwamecody/Article#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
