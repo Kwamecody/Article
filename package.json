@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i styles.css -o tailwind.css",
-    "dev:watch": "npx tailwindcss -i styles.css -o tailwind.css -w"
+    "dev": "npx tailwindcss -i style.css -o tailwind.css",
+    "dev:watch": "npx tailwindcss -i style.css -o tailwind.css -w"
   },
   "repository": {
     "type": "git",
