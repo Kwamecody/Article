@@ -569,6 +569,19 @@ video {
   width: 6rem;
 }
 
+.origin-bottom {
+  transform-origin: bottom;
+}
+
+.origin-bottom-left {
+  transform-origin: bottom left;
+}
+
+.-rotate-6 {
+  --tw-rotate: -6deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -599,6 +612,10 @@ video {
 
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-b-\[16px\] {
+  border-bottom-width: 16px;
 }
 
 .border-red-600 {
@@ -700,6 +717,18 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
 .\[clip-path\:circle\(80\%_at_30\%_20\%\)\] {
   -webkit-clip-path: circle(80% at 30% 20%);
           clip-path: circle(80% at 30% 20%);
@@ -754,6 +783,17 @@ video {
 
 .marker\:text-cyan-400::marker {
   color: rgb(34 211 238 );
+}
+
+.hover\:rotate-0:hover {
+  --tw-rotate: 0deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:text-cyan-600:hover {
